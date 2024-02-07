@@ -1,4 +1,4 @@
-package a
+package problems
 
 /* Problem Link: https://codeforces.com/problemset/problem/271/A */
 
