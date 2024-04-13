@@ -1,6 +1,6 @@
 package problems
 
-/* Problem Link:  */
+/* Problem Link: https://codeforces.com/problemset/problem/1850/A */
 
 fun main() {
     var tests = readln().toInt()
