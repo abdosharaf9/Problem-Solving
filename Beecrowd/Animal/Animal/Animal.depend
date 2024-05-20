@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1618509346 source:d:\c++\uri problem solving\beginner\animal\animal\animal.cpp
+	<iostream>
+	<string>
+

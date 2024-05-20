@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Area of a Circle", "Area of a Circle\Area of a Circle.vcxproj", "{1A6DF46D-68CC-442B-AF72-202F49B87824}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A6DF46D-68CC-442B-AF72-202F49B87824}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1A6DF46D-68CC-442B-AF72-202F49B87824}.Debug|Win32.Build.0 = Debug|Win32
+		{1A6DF46D-68CC-442B-AF72-202F49B87824}.Release|Win32.ActiveCfg = Release|Win32
+		{1A6DF46D-68CC-442B-AF72-202F49B87824}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
