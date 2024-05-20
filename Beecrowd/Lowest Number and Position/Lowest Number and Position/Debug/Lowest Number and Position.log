@@ -1,0 +1,15 @@
+﻿Build started 05/05/2021 4:26:16 PM.
+     1>Project "E:\C++\uri problem solving\beginner\Lowest Number and Position\Lowest Number and Position\Lowest Number and Position.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Lowest Number and Position.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "Lowest Number and Position.cpp"
+         Lowest Number and Position.cpp
+     1>e:\c++\uri problem solving\beginner\lowest number and position\lowest number and position\lowest number and position.cpp(8): error C2057: expected constant expression
+     1>e:\c++\uri problem solving\beginner\lowest number and position\lowest number and position\lowest number and position.cpp(8): error C2466: cannot allocate an array of constant size 0
+     1>e:\c++\uri problem solving\beginner\lowest number and position\lowest number and position\lowest number and position.cpp(8): error C2133: 'N' : unknown size
+     1>Done Building Project "E:\C++\uri problem solving\beginner\Lowest Number and Position\Lowest Number and Position\Lowest Number and Position.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.31

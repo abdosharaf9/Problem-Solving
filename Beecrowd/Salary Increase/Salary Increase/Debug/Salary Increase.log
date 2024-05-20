@@ -1,0 +1,7 @@
+﻿  Salary Increase.cpp
+D:\C++\uri problem solving\beginner\Salary Increase\Salary Increase\Salary Increase.cpp(11,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\C++\uri problem solving\beginner\Salary Increase\Salary Increase\Salary Increase.cpp(18,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\C++\uri problem solving\beginner\Salary Increase\Salary Increase\Salary Increase.cpp(25,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\C++\uri problem solving\beginner\Salary Increase\Salary Increase\Salary Increase.cpp(32,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\C++\uri problem solving\beginner\Salary Increase\Salary Increase\Salary Increase.cpp(39,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+LINK : fatal error LNK1207: incompatible PDB format in 'D:\C++\uri problem solving\beginner\Salary Increase\Debug\Salary Increase.pdb'; delete and rebuild
