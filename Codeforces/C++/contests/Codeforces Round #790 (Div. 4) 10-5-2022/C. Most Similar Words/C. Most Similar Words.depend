@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1652200256 source:d:\codeforces problem solving\contests\codeforces round #790 (div. 4) 10-5-2022\c. most similar words\main.cpp
+	<iostream>
+	<string>
+	<algorithm>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1644441812 source:d:\codeforces problem solving\coderams practice problem archive\008. n-dimensional distance\main.cpp
+	<iostream>
+	<math.h>
+	<iomanip>
+
