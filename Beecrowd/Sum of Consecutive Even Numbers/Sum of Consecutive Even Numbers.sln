@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sum of Consecutive Even Numbers", "Sum of Consecutive Even Numbers\Sum of Consecutive Even Numbers.vcxproj", "{7699C60E-CA67-4EBD-87D7-DD19B9DFE769}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7699C60E-CA67-4EBD-87D7-DD19B9DFE769}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7699C60E-CA67-4EBD-87D7-DD19B9DFE769}.Debug|Win32.Build.0 = Debug|Win32
+		{7699C60E-CA67-4EBD-87D7-DD19B9DFE769}.Release|Win32.ActiveCfg = Release|Win32
+		{7699C60E-CA67-4EBD-87D7-DD19B9DFE769}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

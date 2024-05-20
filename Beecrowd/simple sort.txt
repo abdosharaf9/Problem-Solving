@@ -1,0 +1,68 @@
+int a,b,c,x,y,z,temp;
+    cin>>a>>b>>c;
+    x=a;y=b;z=c;
+   if(a>b){temp=a;a=b;b=temp;}
+   if(a>c){temp=a;a=c;c=temp;}
+   if(b>c){temp=b;b=c;c=temp;}
+   cout<<a<<endl<<b<<endl<<c<<endl;
+   cout<<endl<<x<<endl<<y<<endl<<z<<endl;
+
+*************************************************************
+
+تنازلى
+
+
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+	int arr[5];
+	int temp;
+	for (int i = 0; i < 5; i++) {
+		cin >> arr[i];
+	}
+	for (int i = 0; i < 5; i++) {
+		for (int j = 0; j < 5; j++) {
+			if (arr[j] < arr[i]) {
+				temp = arr[j];
+				arr[j] = arr[i];
+				arr[i] = temp;
+			}
+		}
+	}
+	cout << endl;
+	for (int i = 0; i < 5; i++) {
+		cout << arr[i] << endl;
+	}
+}
+
+**************************************************************
+
+تصاعدى
+
+
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+	int arr[5];
+	int temp;
+	for (int i = 0; i < 5; i++) {
+		cin >> arr[i];
+	}
+	for (int i = 0; i < 5; i++) {
+		for (int j = 0; j < 5; j++) {
+			if (arr[j] > arr[i]) {
+				temp = arr[i];
+				arr[i] = arr[j];
+				arr[j] = temp;
+			}
+		}
+	}
+	cout << endl;
+	for (int i = 0; i < 5; i++) {
+		cout << arr[i] << endl;
+	}
+}
