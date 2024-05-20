@@ -1,0 +1,29 @@
+﻿Build started 04/16/2021 5:18:57 AM.
+     1>Project "E:\C++\uri problem solving\beginner\Even Square\Even Square\Even Square.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "E:\C++\uri problem solving\beginner\Even Square\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\Even Square.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "Even Square.cpp"
+         Even Square.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Even Square.exe.embed.manifest.res" "Debug\Even Square_manifest.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\C++\uri problem solving\beginner\Even Square\Debug\Even Square.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Even Square.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\C++\uri problem solving\beginner\Even Square\Debug\Even Square.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\C++\uri problem solving\beginner\Even Square\Debug\Even Square.lib" /MACHINE:X86 "Debug\Even Square.exe.embed.manifest.res"
+         "Debug\Even Square.obj"
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Even Square.exe.embed.manifest" /manifest "Debug\Even Square.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Even Square.exe.embed.manifest.res" "Debug\Even Square_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\C++\uri problem solving\beginner\Even Square\Debug\Even Square.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Even Square.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\C++\uri problem solving\beginner\Even Square\Debug\Even Square.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\C++\uri problem solving\beginner\Even Square\Debug\Even Square.lib" /MACHINE:X86 "Debug\Even Square.exe.embed.manifest.res"
+         "Debug\Even Square.obj"
+         Even Square.vcxproj -> E:\C++\uri problem solving\beginner\Even Square\Debug\Even Square.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Even Square.unsuccessfulbuild".
+         Touching "Debug\Even Square.lastbuildstate".
+     1>Done Building Project "E:\C++\uri problem solving\beginner\Even Square\Even Square\Even Square.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.28
