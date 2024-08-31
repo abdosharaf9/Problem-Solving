@@ -14,7 +14,7 @@ class Solution {
             else start = mid + 1;
         }
 
-        return Math.round(end);
+        return end;
     }
 }
 
