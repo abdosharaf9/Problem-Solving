@@ -1,5 +1,7 @@
 package CountTheNumberOfConsistentStrings;
 
+// https://leetcode.com/problems/count-the-number-of-consistent-strings/
+
 class Solution {
     public int countConsistentStrings(String allowed, String[] words) {
         int count = 0;
