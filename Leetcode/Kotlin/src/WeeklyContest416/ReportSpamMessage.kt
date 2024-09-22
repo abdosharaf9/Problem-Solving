@@ -1,5 +1,7 @@
 package WeeklyContest416
 
+// https://leetcode.com/problems/report-spam-message/
+
 class Solution {
     fun reportSpam(message: Array<String>, bannedWords: Array<String>): Boolean {
         var count = 0
