@@ -1,3 +1,5 @@
+import utils.printArray
+
 // https://leetcode.com/problems/plus-one/
 
 fun plusOne(digits: IntArray): IntArray {
@@ -16,17 +18,6 @@ fun plusOne(digits: IntArray): IntArray {
     }
 
     return digits
-}
-
-fun printArray(arr: IntArray) {
-    print("[")
-
-    arr.forEachIndexed { idx, x ->
-        print("$x")
-        if (idx != arr.lastIndex) print(", ")
-    }
-
-    println("]")
 }
 
 fun main() {
