@@ -1,6 +1,6 @@
 package problems.FindMinimumInRotatedSortedArray
 
-//
+// https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 
 private class Solution {
     fun findMin(nums: IntArray): Int {
