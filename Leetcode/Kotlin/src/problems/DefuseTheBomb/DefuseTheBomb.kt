@@ -1,11 +1,34 @@
 package problems.DefuseTheBomb
 
 import utils.printArray
+import kotlin.math.abs
 
 // https://leetcode.com/problems/defuse-the-bomb/
 
 private class Solution {
     fun decrypt(code: IntArray, k: Int): IntArray {
+        val n = code.size
+        val answer = IntArray(n) { 0 }
+        if (k == 0) return answer
+
+        var l = 0
+        var curSum = 0
+        for (r in 0..<n + abs(k)) {
+            curSum += code[r % n]
+
+            if (r - l + 1 == abs(k)) {
+                if (k > 0) answer[(l - 1 + n) % n] = curSum
+                else answer[(r + 1) % n] = curSum
+
+                curSum -= code[l]
+                l = (l + 1) % n
+            }
+        }
+
+        return answer
+    }
+
+    /*fun decrypt(code: IntArray, k: Int): IntArray {
         val n = code.size
         if (k == 0) return IntArray(n) { 0 }
 
@@ -27,7 +50,7 @@ private class Solution {
         }
 
         return answer
-    }
+    }*/
 }
 
 fun main() {
