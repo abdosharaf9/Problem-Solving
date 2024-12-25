@@ -44,6 +44,17 @@ fun printArray(arr: Array<String>, newLine: Boolean = true) {
     print("]${if (newLine) "\n" else ""}")
 }
 
+fun printArray(arr: List<Int>, newLine: Boolean = true) {
+    print("[")
+
+    for (i in arr.indices) {
+        print(arr[i])
+        if (i != arr.lastIndex) print(", ")
+    }
+
+    print("]${if (newLine) "\n" else ""}")
+}
+
 fun printMatrixLikeMatrix(matrix: Array<IntArray>) {
     print("[")
 
