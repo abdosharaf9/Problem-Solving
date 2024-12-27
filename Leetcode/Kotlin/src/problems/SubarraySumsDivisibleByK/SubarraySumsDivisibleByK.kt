@@ -2,7 +2,7 @@ package SubarraySumsDivisibleByK
 
 // https://leetcode.com/problems/subarray-sums-divisible-by-k/
 
-class Solution {
+private class Solution {
     // Time: O(n), but more faster
     // Space: O(k)
     fun subarraysDivByK(nums: IntArray, k: Int): Int {
