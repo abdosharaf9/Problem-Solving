@@ -4,7 +4,7 @@ package problems.MaximumScoreAfterSplittingAString
 
 private class Solution {
     // Time: O(n)
-    // Space: O(n)
+    // Space: O(1)
     fun maxScore(s: String): Int {
         // Number of zeros in the left portion which is initially empty.
         var zeros = 0
