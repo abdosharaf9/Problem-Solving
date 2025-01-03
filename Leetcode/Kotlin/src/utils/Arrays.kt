@@ -44,7 +44,7 @@ fun printArray(arr: Array<String>, newLine: Boolean = true) {
     print("]${if (newLine) "\n" else ""}")
 }
 
-fun printArray(arr: List<Int>, newLine: Boolean = true) {
+fun <T> printArray(arr: List<T>, newLine: Boolean = true) {
     print("[")
 
     for (i in arr.indices) {
