@@ -4,7 +4,7 @@ import java.util.PriorityQueue
 
 // https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/
 
-class Solution {
+private class Solution {
     // Time: O(n * log m), where the O(log m) part comes from the `getDigitsSum()` function.
     // Time: O(1), because we use an array with fixed size.
     fun maximumSum(nums: IntArray): Int {
