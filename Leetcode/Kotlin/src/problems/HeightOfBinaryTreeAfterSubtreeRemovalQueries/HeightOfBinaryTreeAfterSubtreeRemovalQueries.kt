@@ -4,7 +4,7 @@ import utils.printArray
 
 // https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/
 
-class TreeNode(var `val`: Int) {
+private class TreeNode(var `val`: Int) {
     var left: TreeNode? = null
     var right: TreeNode? = null
 }
