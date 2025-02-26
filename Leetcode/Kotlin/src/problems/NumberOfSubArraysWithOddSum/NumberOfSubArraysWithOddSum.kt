@@ -4,7 +4,7 @@ package problems.NumberOfSubArraysWithOddSum
 
 private class Solution {
     // Time: O(n)
-    // Space: O(n)
+    // Space: O(1)
     fun numOfSubarrays(arr: IntArray): Int {
         // Store the prefix sum, number of subarrays with an odd sum,
         // number of subarrays with an even sum, and the result
