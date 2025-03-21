@@ -1,15 +1,29 @@
 package utils;
 
+import java.util.List;
+
 public class ArrayUtils {
 
     public static void printArray(String[] array) {
         System.out.print("[");
 
-        for (String x : array) {
-            if (x.equals(array[array.length - 1])) {
-                System.out.print(x);
-            } else {
-                System.out.print(x + ", ");
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i]);
+            if (i != array.length - 1) {
+                System.out.print(", ");
+            }
+        }
+
+        System.out.println("]");
+    }
+
+    public static void printArray(List<String> array) {
+        System.out.print("[");
+
+        for (int i = 0; i < array.size(); i++) {
+            System.out.print(array.get(i));
+            if (i != array.size() - 1) {
+                System.out.print(", ");
             }
         }
 
@@ -19,11 +33,10 @@ public class ArrayUtils {
     public static void printArray(char[] array) {
         System.out.print("[");
 
-        for (char x : array) {
-            if (x == array[array.length - 1]) {
-                System.out.print(x);
-            } else {
-                System.out.print(x + ", ");
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i]);
+            if (i != array.length - 1) {
+                System.out.print(", ");
             }
         }
 
@@ -33,11 +46,10 @@ public class ArrayUtils {
     public static void printArray(int[] array) {
         System.out.print("[");
 
-        for (int x : array) {
-            if (x == array[array.length - 1]) {
-                System.out.print(x);
-            } else {
-                System.out.print(x + ", ");
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i]);
+            if (i != array.length - 1) {
+                System.out.print(", ");
             }
         }
 
@@ -47,11 +59,10 @@ public class ArrayUtils {
     public static void printArray(double[] array) {
         System.out.print("[");
 
-        for (double x : array) {
-            if (x == array[array.length - 1]) {
-                System.out.print(x);
-            } else {
-                System.out.print(x + ", ");
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i]);
+            if (i != array.length - 1) {
+                System.out.print(", ");
             }
         }
 
@@ -61,11 +72,10 @@ public class ArrayUtils {
     public static void printArray(long[] array) {
         System.out.print("[");
 
-        for (long x : array) {
-            if (x == array[array.length - 1]) {
-                System.out.print(x);
-            } else {
-                System.out.print(x + ", ");
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i]);
+            if (i != array.length - 1) {
+                System.out.print(", ");
             }
         }
 
