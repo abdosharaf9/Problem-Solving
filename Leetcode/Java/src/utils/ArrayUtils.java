@@ -17,7 +17,7 @@ public class ArrayUtils {
         System.out.println("]");
     }
 
-    public static void printArray(List<String> array) {
+    public static <T> void printArray(List<T> array) {
         System.out.print("[");
 
         for (int i = 0; i < array.size(); i++) {
