@@ -1,6 +1,6 @@
-package LowestCommonAncestorOfDeepestLeaves;
+package SmallestSubtreeWithAllTheDeepestNodes;
 
-// https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
+// https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -39,7 +39,7 @@ class Pair {
 class Solution {
     // Time: O(n)
     // Space: O(n), due to the recursion call stack.
-    public TreeNode lcaDeepestLeaves(TreeNode root) {
+    public TreeNode subtreeWithAllDeepest(TreeNode root) {
         // Use a recursive DFS to visit each node and compute two things:
         //      1. The maximum depth found in that node’s subtree.
         //      2. The LCA of all deepest leaves in that subtree.
@@ -84,7 +84,7 @@ class Test {
 
         for (Integer[] input : inputs) {
             TreeNode root = buildTreeFromLevelOrder(input);
-            TreeNode lca = solution.lcaDeepestLeaves(root);
+            TreeNode lca = solution.subtreeWithAllDeepest(root);
             List<Integer> output = treeToLevelOrderList(lca);
             System.out.println(output);
         }
